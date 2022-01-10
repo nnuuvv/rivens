@@ -20,7 +20,6 @@ namespace rivens
             foreach (JSONNode weapon in json)
             {
                 List<int> prices = new List<int>();
-                List<int> rolls = new List<int>();
                 foreach(JSONNode data in weapon)
                 {
                     foreach(JSONNode riven in data)
